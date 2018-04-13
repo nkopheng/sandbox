@@ -14,3 +14,7 @@ git checkout -b testA
 
 git push --set-upstream origion testA
 
+# To a new file:
+- create a file newfile.sh
+- git add newfile.sh
+- git commit -m "Added newfile.sh"
