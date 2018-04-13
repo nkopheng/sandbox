@@ -18,3 +18,14 @@ git push --set-upstream origion testA
 - create a file newfile.sh
 - git add newfile.sh
 - git commit -m "Added newfile.sh"
+
+# To merge integration to testA
+- Need to be at testA branch
+- git merge origin/integration 
+
+# To compare branch
+- git diff master testA
+
+# To replace local copy or bring fresh file back:
+- git checkout -- hello.sh
+
