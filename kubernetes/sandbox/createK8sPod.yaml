@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helloworld-pod
+  namespace: cloudify-ns # Replace with your namespace or "default"
+spec:
+  containers:
+  - name: helloworld-container
+    image: busybox
+    command: ["echo", "Hello, World!"]
+    args: ["; sleep", "3600"] # Prevent container from terminating
